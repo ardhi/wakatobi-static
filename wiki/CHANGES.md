@@ -1,5 +1,9 @@
 # Changes
 
+## 2026-07-04
+
+- [2.6.0] Reorganize projects to reduce boot time
+
 ## 2026-06-12
 
 - [2.5.0] Necessary updates to ```bajo@2.18.0``` specs

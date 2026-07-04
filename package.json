@@ -1,6 +1,6 @@
 {
   "name": "waibu-static",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Static Assets support for Waibu",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,9 @@
   },
   "homepage": "https://github.com/ardhi/waibu-static#readme",
   "devDependencies": {
+    "chai": "^6.2.2",
     "clean-jsdoc-theme": "^4.3.0",
-    "jsdoc-plugin-intersection": "^1.0.4"
+    "jsdoc-plugin-intersection": "^1.0.4",
+    "mocha": "^11.7.6"
   }
 }
