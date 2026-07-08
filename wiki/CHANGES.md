@@ -1,5 +1,10 @@
 # Changes
 
+## 2026-07-08
+
+- [2.6.1] Bug fix in `boot.js`
+- [2.6.1] Revamped documentations
+
 ## 2026-07-04
 
 - [2.6.0] Reorganize projects to reduce boot time

@@ -15,17 +15,27 @@ async function factory (pkgName) {
   /**
    * WaibuStatic class definition.
    *
+   * This class is automatically instatiated by the {@link https://ardhi.github.io/bajo|Bajo framework} during app initialization.
+   * You can access the instance via `this.app.waibuStatic` in your plugin code.
+   *
    * @class
    */
   class WaibuStatic extends this.app.baseClass.Base {
+    /**
+     * Constructor
+     */
     constructor () {
       super(pkgName, me.app)
       /**
-       * @member {string[]} routePathHandlers - List of route path handlers
+       * Route path handlers
+       * @type {string[]}
+       * @default ['asset', 'virtual']
        */
       this.routePathHandlers = ['asset', 'virtual']
       /**
-       * @member {TConfig} config - Configuration object
+       * Configuration object. To override the default configuration, you can create `data/config/waibuStatic.json`
+       * file in the app data directory.
+       * @type {WaibuStatic.TConfig}
        */
       this.config = config
     }

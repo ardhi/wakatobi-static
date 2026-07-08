@@ -1,5 +1,9 @@
 <p><img alt="Waibu Web Framework" src="static/logo-ecosystem.png" height="200" /></p>
 
+# waibu-static
+
+This plugin provides static file serving capabilities for [Waibu](https://ardhi.github.io/waibu|Waibu). It allows you to serve assets and virtual files from specified directories, with support for custom prefixes and configurations.
+
 ## Hire Me
 
 If you have a Bajo Framework-based project and need a professional service or assistance, please <a href="https://github.com/ardhi#professional-service">click here</a>. I'd be happy to work on it at a competitive price and with fast turnaround!
